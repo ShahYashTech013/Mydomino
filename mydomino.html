@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domino's Pizza Clone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            padding: 1rem 2rem;
+        }
+
+        .banner {
+            background-image: url('https://www.shared.com/content/images/2017/08/dominos-pizza.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            color: rgb(1, 6, 10);
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+        }
+
+        .products {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
+
+        .products h2 {
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #070107;
+            color: rgb(79, 16, 238);
+            padding: 20px 0;
+        }
+
+        .social-icons i {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        .fb {
+            background-color: #3b5998;
+        }
+
+        .twitter {
+            background-color: #55acee;
+        }
+
+        .google {
+            background-color: #dd4b39;
+        }
+
+        .card {
+  width: 400px;
+  height: 250px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100px; /* adjust the height of the image to fit within the card */
+  object-fit: cover; /* ensure the image is scaled to fit within the dimensions */
+}
+
+.card-body {
+  padding: 10px; /* adjust the padding to fit the content within the card */
+}
+
+.topnav {
+  background-color: #333; /* dark gray background */
+  overflow: hidden; /* to contain the input field */
+  padding: 5px; /* add some padding */
+}
+
+.topnav input[type="text"] {
+  float: left; /* place the input field to the left */
+  padding: 10px; /* add some padding */
+  border: none; /* remove the default border */
+  font-size: 25px; /* adjust the font size */
+  width: 100%px; /* take up 75% of the parent's width */
+}
+
+.topnav input[type="text"]:focus {
+  background-color: #ddd; /* light gray background on focus */
+}
+
+.topnav input[type="text"]::placeholder {
+  color: #aaa; /* light gray placeholder text */
+}
+
+    </style>
+</head>
+
+<body>
+    <marquee>
+        <h1> welcome to our dominos pizza!!</h1>
+    </marquee>
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/2560px-Dominos_pizza_logo.svg.png"
+                height="40" alt="Domino's Pizza Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <li class="nav-item"><a class="nav-link" href="https://www.dominos.co.in/menu">OUR MENU</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.dominos.co.in/store-location/">DOMINO'S
+                        STORES</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.dominos.co.in/virtual-pizza-party">CORPORATE
+                        ENQUIRY</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.dominos.co.in/contact">CONTACT US </a></li>
+            </ul>
+            <div class="topnav">
+                <input type="text" placeholder="Search..">
+              </div> 
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <button class="btn btn-danger ml-3">Download App</button>
+            <ul class="navbar-nav ml-auto">
+        </div>
+       
+        
+        <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="/login">Login/Sign up</a>
+          </li>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Banner -->
+    <section class="banner text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to Domino's Pizza</h1>
+            <p class="lead">Order your favorite pizza online now!</p>
+            <a href="https://www.dominos.co.in/" class="btn btn-primary btn-lg">Order Now</a>
+        </div>
+    </section>
+
+   <!-- End Banner -->
+
+    <!-- Products Section -->
+    <section class="products text-center">
+        <div class="container">
+            <h2>Our Bestsellers</h2>
+            <div class="row mt-5">
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.KHEW_OLuQYdvZTJijf2uFwAAAA?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="Pizza 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Pepperoni Pizza</h5>
+                            <p class="card-text">Topped with pepperoni, cheese, and tomato sauce.</p>
+                            <a href="https://www.dominos.co.in/menu/non-veg-pizzas/chicken-pepperoni"
+                                class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.Xx0j4C97GRtmrBzJHq8RFgHaLG?rs=1&pid=ImgDetMain"
+                            class="card-img-top" alt="Pizza 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Veggie Delight</h5>
+                            <p class="card-text">Loaded with fresh vegetables and cheese.</p>
+                            <a href="https://www.dominos.co.in/menu/veg-pizzas" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.SpqcfJ7OohmmgFdrjfjiJgHaFF?w=800&h=550&rs=1&pid=ImgDetMain"
+                    class="card-img-top" alt="Pizza 3">
+                <div class="card-body">
+                    <h5 class="card-title">peepy paneer pizza</h5>
+                    <p class="card-text">Loaded with fresh vegetables and cheese.</p>
+                    <a href="https://www.dominos.co.in/menu/veg-pizzas/peppy-paneer" class="btn btn-primary">Order Now!</a>
+                </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Domino's Pizza. All Rights Reserved.</p>
+            <p>Follow us on:</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/dominospizzaindia/" class="facebook" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dominos_india/" class="instagram" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/dominos_india" class="twitter" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/user/dominospizzaindia" class="youtube" target="_blank"><i
+                        class="fab fa-youtube"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
